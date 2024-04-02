@@ -1,0 +1,48 @@
+.checkout {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    font-family: $font;
+
+    &__content {
+        // border-radius: 6px;
+        // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+        // // width: 640px;
+        // border: none;
+        // padding: 16px;
+        // background-color: #e4ddd4;
+        // animation: fade-slide-up 0.3s ease-out forwards;
+    }
+
+    &__btns {
+        margin: 16px 0;
+        display: flex;
+        justify-content: end;
+    }
+
+    &--amount {
+        margin: 16px 0;
+        color: #000;
+        font-size: 1.6em;
+    }
+
+    &__place-info {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        
+        .form-group {
+            width: 40%;
+
+            input {
+                width: 90%;
+            }
+        }
+    }
+}
+
+.checkout::backdrop { 
+    background-color: rgba(0, 0, 0, 0.55);
+}

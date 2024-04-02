@@ -1,0 +1,53 @@
+[
+    {
+        "items":
+        [
+            {
+                "id":"m3",
+                "name":"Caesar Salad",
+                "price":"7.99",
+                "description":"Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
+                "image":"images/caesar-salad.jpg",
+                "quantity":1
+            }
+        ],
+        "customer":
+        {
+            "name":"Patryk Płonka",
+            "email":"patrykplonka.op@gmail.com",
+            "street":"Oświęcimska 32",
+            "postal-code":"32-651",
+            "city":"Nowa Wieś"
+        },
+        "id":"92.5608198194614"},
+        {"items":
+        [
+            {
+                "id":"m3",
+                "name":"Caesar Salad",
+                "price":"7.99",
+                "description":"Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
+                "image":"images/caesar-salad.jpg",
+                "quantity":10
+            },
+            {
+                "id":"m6",
+                "name":"Grilled Chicken Sandwich",
+                "price":"10.99",
+                "description":"Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
+                "image":"images/grilled-chicken-sandwich.jpg",
+                "quantity":2
+            }
+            ],
+            "customer":
+            {
+                "name":"Patryk Płonka",
+                "email":"asdasd@asdasd",
+                "street":"Oświęcimska 32",
+                "postal-code":"32-651",
+                "city":"Nowa Wieś"
+            },
+            "id":
+            "764.4198372669648"
+        }
+]

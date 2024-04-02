@@ -1,0 +1,31 @@
+**,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './fonts';
+@import './variables';
+
+html {
+    font-size: 62.5%;
+    background-color: #333;
+}
+
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#29251c, #2c2306);
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+@import './header';
+@import './meals';
+@import './modal';
+@import './Cart';
+@import './checkout';
+@import './input';

@@ -1,0 +1,114 @@
+.cart {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    font-family: $font;
+
+    &--heading {
+        font-size: 2.4em;
+        color: #000;
+        margin: 16px 0;
+        font-weight: bold;
+    }
+
+    &__ux {
+        list-style: none;
+        margin-bottom: 0;
+        padding: 16px 0;
+
+        &--heading {
+            font-size: 1.6em;
+            color: #000;
+            margin-bottom: 0;
+        }
+
+        &--li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 14px;
+        }
+
+        &__box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &--btn, .btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #312c1d;
+            color: $color;
+            transition: all .5s;
+            
+            i {
+                font-size: 1.6em;
+            }
+
+        }
+        &--count {
+            margin: 0 16px;
+            font-size: 1.6em;
+            color: #000;   
+        }
+    }
+
+    &__footer {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+
+        &--prize {
+            font-size: 1.8em;
+            color: #46443c;
+            margin: 32px 0;
+            font-weight: bold;
+        }
+
+        &__btns {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 0;
+
+            &--btn {
+                font-size: 1.6em;
+                color: #1d1a16;
+                margin-right: 16px;
+                border: none;
+                background: none;
+            }
+
+            &--checkout {
+                padding: 8px 24px;
+                background-color: $color;
+                border-radius: 4px;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+
+@keyframes fade-slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
